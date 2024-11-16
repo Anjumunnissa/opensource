@@ -1,0 +1,7 @@
+X, Y, Z = map(int, input().split())
+max_mango_weight = Z - Y
+if max_mango_weight >= 0:
+    max_mangoes = max_mango_weight 
+else:
+    max_mangoes = 0  
+print(max_mangoes)
